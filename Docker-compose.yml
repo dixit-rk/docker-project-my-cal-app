@@ -1,0 +1,11 @@
+services:
+  myApp1:
+    image: "dixitnakhva/my-cal-app-repo:my-cal-app"
+    ports:
+      - "8000:3000"
+  myApp2:
+    image: "dixitnakhva/my-cal-app-repo:my-cal-app"
+    ports:
+      - "9000:3000"
+
+# created docker-compose file to run multiple images
